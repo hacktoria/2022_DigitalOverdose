@@ -18,12 +18,17 @@ In the end there is also something said
 
 ![Alt text](The_Rat/Detect_DTMF_Tones.png)
 
+The result are the following numbers
+
 ```
 
 0442896496852
 
 ```
 
+- dcode.fr - <https://www.dcode.fr/phone-keypad-cipher>
+ - ABC or Multi-tap Code <https://www.dcode.fr/multitap-abc-cipher>
+ - T9 Code (Predictive text) <https://www.dcode.fr/t9-cipher>
 
 
 Tried flags:

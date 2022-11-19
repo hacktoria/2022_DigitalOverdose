@@ -21,7 +21,7 @@
 
 ![Challenge](images/image_003.png)
 
-[Numbers Station Resolution](Numbers_Station/README.md)
+Flag - [Numbers Station Resolution](Numbers_Station/README.md)
 
 ---
 
@@ -35,7 +35,7 @@
 
 ![Challenge](images/image_005.png)
 
-[The Rat](The?Rat/README.md)
+No Flag - [The Rat Resolution](The_Rat/README.md)
 
 ---
 
