@@ -13,7 +13,7 @@
 
 ![Challenge](images/image_002.png)
 
-[Zazu vs. Carl - 1 Resolution](Ye_Auld-io/README.md)
+[Zazu vs. Carl - 1 Resolution](Zazu_Carl1/README.md)
 
 ---
 
@@ -21,7 +21,7 @@
 
 ![Challenge](images/image_003.png)
 
-[Zazu vs. Carl - 2 Resolution](Ye_Auld-io/README.md)
+[Zazu vs. Carl - 2 Resolution](Zazu_Carl2/README.md)
 
 ---
 
@@ -29,6 +29,6 @@
 
 ![Challenge](images/image_004.png)
 
-[Zazu vs. Carl - 3 Resolution](Ye_Auld-io/README.md)
+[Zazu vs. Carl - 3 Resolution](Zazu_Carl3/README.md)
 
 ---
