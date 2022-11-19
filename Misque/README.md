@@ -13,7 +13,7 @@
 
 ![Challenge](images/image_002.png)
 
-[th(REEEEEEEEEEEEEEE)](three/README.md)
+[th(REEEEEEEEEEEEEEE) Resolution](three/README.md)
 
 ---
 
