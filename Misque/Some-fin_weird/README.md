@@ -1,21 +1,15 @@
 
+### Some-fin weird - Resolution
 
-![Alt text](cutie.jpg)
+![Alt text](google_001.png)
 
-### Based Pande - Resolution
+![Alt text](wireshark_001.png)
 
-![Alt text](aperi_solve_001.png)
+![Alt text](wireshark_002.png)
 
-![Alt text](aperi_solve_002.png)
+![Alt text](wireshark_003.png)
 
-
-```
-
-RE9DVEZ7UDRuRDNzTDBvazRGVDNSRTBGfQ==
-
-```
-
-![Alt text](cyberchef.png)
+![Alt text](wireshark_004.png)
 
 
-``` Flag : DOCTF{P4nD3sL0ok4FT3RE0F} ```
+``` Flag :  ```

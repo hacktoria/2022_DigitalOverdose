@@ -21,6 +21,6 @@
 
 ![Challenge](images/image_002.png)
 
-[Some-fin weird Resolution](Some-fin_weird/README.md)
+No Flag - [Some-fin weird Resolution](Some-fin_weird/README.md)
 
 ---
