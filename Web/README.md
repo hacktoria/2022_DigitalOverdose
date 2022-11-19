@@ -9,6 +9,8 @@
 
 ![Alt text](images/image_001.png)
 
+<https://github.com/pedroaovieira/ctf/blob/main/04_Web/020_web.md>
+
 ---
 
 ## Can you tell me my email?
@@ -24,6 +26,13 @@
 ![Challenge](images/image_003.png)
 
 [Lazy Path Resolution](Path/README.md)
+
+Upload a webshell?
+
+Upload a reverse shell?
+
+
+
 
 ---
 
