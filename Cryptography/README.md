@@ -35,6 +35,8 @@
 
 ![Challenge](images/image_005.png)
 
+[The Rat](The?Rat/README.md)
+
 ---
 
 ## Essence of Symmetry
