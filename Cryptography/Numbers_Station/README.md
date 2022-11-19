@@ -31,7 +31,7 @@ Some links about the Radio Stations and the cryptographic methods used:
 
 The methos is to translate each number to the corresponding alphabet letter position.
 
-![Alt text](Numbers_Station/alphabet.png)
+![Alt text](alphabet.png)
 
 23, 8, 1, 20, 1, 23, 5, 9, 18, 4, 19, 20, 1, 20, 9, 15, 14
 
