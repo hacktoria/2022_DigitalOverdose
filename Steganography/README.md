@@ -32,5 +32,3 @@
 ## It's hidden
 
 ![Challenge](images/image_005.png)
-
-No Flag - [The Rat Resolution](The_Rat/README.md)
