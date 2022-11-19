@@ -38,7 +38,7 @@
 
 ## Maya went on a trip!
 
-[label](Maya_trip/README.md)
+[Maya went on a trip!](Maya_trip/README.md)
 
 <https://github.com/pedroaovieira/ctf/tree/main/01_OSINT>
 
