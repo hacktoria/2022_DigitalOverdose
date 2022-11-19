@@ -39,3 +39,10 @@ Tried flags:
 - DOCTF{HATWMGWMTJA}
 
 ``` Flag : Not yet ```
+
+
+#### Alternatives
+
+![Alt text](The_Rat/Spectrogram.png)
+
+Also tried looking into the spectogram, nothing special found.
