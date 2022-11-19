@@ -13,3 +13,7 @@ jwt token ??
 https://jwt.io/
 
 ![Alt text](image_004.png)
+
+Cookie???
+
+![Alt text](image_005.png)
