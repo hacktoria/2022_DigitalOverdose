@@ -1,12 +1,9 @@
 # Audionography
-
-
-# Steganography
-- [Steganography](#steganography)
-  - [Based pande](#based-pande)
-  - [Arrow](#arrow)
-  - [Fibbing, but math don't lie](#fibbing-but-math-dont-lie)
-  - [It's hidden](#its-hidden)
+- [Audionography](#audionography)
+  - [Ye Auld-io](#ye-auld-io)
+  - [Meaningful Static](#meaningful-static)
+  - [Interstitial sound](#interstitial-sound)
+  - [SeeSV](#seesv)
 
 ![Challenges](images/image_001.png)
 
