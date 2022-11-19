@@ -6,6 +6,7 @@
   - [The Rat](#the-rat)
   - [Essence of Symmetry](#essence-of-symmetry)
   - [Hacker's Gambit](#hackers-gambit)
+  - [This isn't bitrot](#this-isnt-bitrot)
 
 ![Challenges](images/image_001.png)
 
@@ -48,3 +49,15 @@ No Flag - [The Rat Resolution](The_Rat/README.md)
 ## Hacker's Gambit
 
 ![Challenge](images/image_007.png)
+
+No Flag - [Hacker's Gambit Resolution](Hackers_Gambit/README.md)
+
+---
+
+## This isn't bitrot
+
+![Challenge](images/image_008.png)
+
+No Flag - [This isn't bitrot Resolution](Bitrot/README.md)
+
+---
