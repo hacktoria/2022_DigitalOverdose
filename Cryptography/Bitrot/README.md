@@ -8,9 +8,9 @@ RYFJDKF FZLYGYGA, FJNQ CLSONX OGDRCNXAN. RYFJDKF OGDRCNXAN, FJNQ CLSONX SDGUYXNG
 
 ### This isn't bitrot - Resolution
 
-![Alt text](Substitution_Solver.png)
-
 Substitution Solver - <https://www.guballa.de/substitution-solver>
+
+![Alt text](Substitution_Solver.png)
 
 ```
 

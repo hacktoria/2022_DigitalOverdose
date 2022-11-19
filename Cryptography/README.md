@@ -58,6 +58,6 @@ No Flag - [Hacker's Gambit Resolution](Hackers_Gambit/README.md)
 
 ![Challenge](images/image_008.png)
 
-No Flag - [This isn't bitrot Resolution](Bitrot/README.md)
+[This isn't bitrot Resolution](Bitrot/README.md)
 
 ---
