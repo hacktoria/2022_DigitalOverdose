@@ -1,0 +1,194 @@
+
+
+
+
+
+
+Shitpost Working Group                                              Maya
+Request for Comments: 34123             
+Category: Informational                                    
+                                                           November 2022
+
+
+       Usage of the Fibonacci Sequence for Information Dissimulation
+                                (Pigeonless)
+
+Status of This Memo
+
+   This memo provides information for the Internet community.  It does
+   not specify an Internet standard of any kind.  Distribution of this
+   memo is unlimited.
+
+Copyright Notice
+
+   lmao, no. this is a shitpost
+
+Abstract
+
+   This document establishes terminology to standardize the description
+   of a steganography technique using the Fibonacci sequence. Future 
+   documents will not address anything.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Maya                         Informational                      [Page 1]
+
+RFC 34123      Steganography with the Fibonacci sequence   November 2022
+
+
+Table of Contents
+
+   1. Introduction ....................................................2
+   2. Mathematical prelude ............................................2
+      2.1. The Fibonacci Sequence......................................2
+   3. Steganography Approach ..........................................3
+      3.1. Bit values .................................................4
+      3.2. Data conversion.............................................4
+      3.3. Fibonacci approach .........................................4
+           
+
+
+
+Maya                         Informational                      [Page 2]
+
+RFC 34123      Steganography with the Fibonacci sequence   November 2022
+
+
+1.  Introduction
+
+   This document defines terminology for use in this CTF challenge.
+
+2.  Mathematical prelude
+
+2.1.  The Fibonacci Sequence
+
+   Definition:
+      "In mathematics, the Fibonacci numbers, commonly denoted Fn ,
+      form a sequence, the Fibonacci sequence, in which each number 
+      is the sum of the two preceding ones. The sequence commonly 
+      starts from 0 and 1, although some authors start the sequence 
+      from 1 and 1 or sometimes (as did Fibonacci) from 1 and 2. 
+      Starting from 1 and 1, the first few values in the sequence 
+      are: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144" 
+      (This definition is taken directly from Wikipedia)
+
+        For computational reasons, we start from 1 and 1.
+
+        It can be seen as:
+                      
+                     -------------
+                     |           |
+                --- sum ---      |
+                |         |      ˇ
+        [..., F_(n-2), F_(n-1), F_n, F_(n+1), ...]
+
+
+Maya                         Informational                      [Page 3]
+
+RFC 34123      Steganography with the Fibonacci sequence   November 2022
+
+3. Steganography Approach
+
+3.1.  Bit values
+
+    An RGB image is a collection of data units called pixels, displayed 
+    in a 2D array most often represented by an x and a y axis, of width
+    w and height h.
+
+       (0,0)         x         w
+            +---+---+ ... +---+
+            |   |   |     |   |
+            +---+---+     +---+
+            |   |   |         .
+        y   +---+---+         .
+            .                 .
+            +---+         +---+
+            |   |         |   |
+            +---+.........+---+
+          h                    (w,h)    
+
+    Each RGB pixel is a 3-tuple of 8-bit values.
+    
+    +---------------+  +---------------+  +---------------+
+    |     Red (R)   |  |   Green (G)   |  |    Blue (B)   |
+    +-+-+-+-+-+-+-+-+  +-+-+-+-+-+-+-+-+  +-+-+-+-+-+-+-+-+
+    | | | | | | | | |  | | | | | | | | |  | | | | | | | | |
+    +-+-+-+-+-+-+-+-+  +-+-+-+-+-+-+-+-+  +-+-+-+-+-+-+-+-+
+        8 bits              8 bits               8 bits
+
+    A raw RGB image is as such a data structure of size w * h * 8 * 3.
+
+Maya                         Informational                      [Page 4]
+
+RFC 34123      Steganography with the Fibonacci sequence   November 2022
+
+3.2.  Data conversion
+
+    The stored secret is an ASCII string.
+    It is converted to a series of bits, using the 8-bit value of each
+    the character associated with the ASCII representation.
+
+    Example:
+    'A' -> 0b01000001
+    '1' -> 0b00110001
+    '$' -> 0b00100100
+
+    The individual bits comprising these numbers are then aggregated 
+    into a sequence.
+
+3.3.  Fibonacci approach
+    
+    For this steganography approach, we loop over an external bound,
+    and within it, we loop over an internal bound (loop inside loop)
+    and add the (inner bound)th Fibonacci sequence value to the sum.
+    As it increments the value of the sum is used as the offset for
+    data dissimulation.
+
+    Example:
+    | Outer bound| Inner bound| Calculation   | Sum/Offset |
+    |          1 |          1 |        fib(1) |          1 |
+    |          2 |          2 | prev + fib(2) |          2 |
+    |          3 |          2 | prev + fib(2) |          3 |
+    |          3 |          3 | prev + fib(3) |          5 |
+    |          4 |          2 | prev + fib(2) |          6 |
+    |          4 |          3 | prev + fib(3) |          8 |
+    |          4 |          4 | prev + fib(4) |         11 |
+    |          5 |          2 | prev + fib(2) |         12 |
+    |          5 |          3 | prev + fib(3) |         14 |
+    |          5 |          4 | prev + fib(4) |         17 |
+    |          5 |          5 | prev + fib(5) |         22 |
+    |          6 |          2 | prev + fib(2) |         23 |
+    |          6 |          3 | prev + fib(3) |         25 |
+    |          6 |          4 | prev + fib(4) |         28 |
+    |          6 |          5 | prev + fib(5) |         33 |
+    |          6 |          6 | prev + fib(6) |         41 |
+    |          7 |          2 | prev + fib(2) |         42 |
+    |          7 |          3 | prev + fib(3) |         44 |
+    |          7 |          4 | prev + fib(4) |         47 |
+    |          7 |          5 | prev + fib(5) |         52 |
+
+Maya                         Informational                      [Page 5]
+
+RFC 34123      Steganography with the Fibonacci sequence   November 2022
+    
+    Each bit at the offset indicated is then set to the next bit in the 
+    sequence defined in 3.2.
+
+    This new image is then saved and sent by means of a transmission
+    protocol. The authors of this RFC suggest RFC 1149.    
+
+Maya                         Informational                     [Page 5]
+
