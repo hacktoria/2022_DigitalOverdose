@@ -8,8 +8,19 @@ RYFJDKF FZLYGYGA, FJNQ CLSONX OGDRCNXAN. RYFJDKF OGDRCNXAN, FJNQ CLSONX SDGUYXNG
 
 ### This isn't bitrot - Resolution
 
+![Alt text](Substitution_Solver.png)
 
-Tried flags:
+Substitution Solver - <https://www.guballa.de/substitution-solver>
+
+```
+
+WITHOUT TRAINING, THEY LACKED KNOWLEDGE. WITHOUT KNOWLEDGE, THEY LACKED CONFIDENCE. WITHOUT CONFIDENCE, THEY LACKED VICTORY. YOUR FLAG IS ROT DOES NOT A CRYPTO MAKE, IN LOWERCASE, WITH UNDERSCORES INSTEAD OF SPACES, SURROUNDED BY THE USUAL FLAG TAG AND OPEN AND CLOSED BRACKETS. ENJOY.
+
+```
+
+ROT DOES NOT A CRYPTO MAKE
+
+DOCTF{rot_does_not_a_crypto_make}
 
 
-``` Flag : Not yet ```
+``` Flag : DOCTF{rot_does_not_a_crypto_make} ```
