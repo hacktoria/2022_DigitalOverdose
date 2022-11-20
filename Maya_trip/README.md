@@ -8,7 +8,7 @@
   - [5 - Friends shouldn't doxx e/o](#5---friends-shouldnt-doxx-eo)
   - [6 - A slice of time](#6---a-slice-of-time)
   - [7 - Alienas Terras](#7---alienas-terras)
-  - [8 -](#8--)
+  - [8 - Taking altitude](#8---taking-altitude)
 
 ![Alt text](images/image_001.png)
 
@@ -70,4 +70,10 @@
 
 ---
 
-## 8 - 
+## 8 - Taking altitude
+
+![Challenge](images/image_009.png)
+
+[Taking altitude Resolution](Altitude/README.md)
+
+---
