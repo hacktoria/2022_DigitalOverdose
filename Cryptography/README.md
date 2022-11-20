@@ -52,7 +52,7 @@ Flag - [Numbers Station Resolution](Numbers_Station/README.md)
 
 ![Challenge](images/image_007.png)
 
-No Flag - [Hacker's Gambit Resolution](Hackers_Gambit/README.md)
+[Hacker's Gambit Resolution](Hackers_Gambit/README.md)
 
 ---
 
