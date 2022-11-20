@@ -24,6 +24,6 @@ JEONJU TO YEOSU -- Maybe not. Check southern cities where the train from Jeonju 
 Not ??
 DOCTF{KTX-SANCHEON_507}
 
+DOCTF{KTX_702}
 
-
-``` Flag :  ```
+``` Flag : DOCTF{KTX_702} ``` ????
