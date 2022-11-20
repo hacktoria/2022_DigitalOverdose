@@ -2,4 +2,4 @@
 
 
 
-``` Flag : DOCTF{national_museum_of_korea} ``` ????
+``` Flag : DOCTF{national_museum_of_korea} ```

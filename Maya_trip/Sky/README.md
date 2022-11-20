@@ -2,4 +2,4 @@
 
 
 
-``` Flag : DOCTF{korea_university} ``` ????
+``` Flag : DOCTF{korea_university} ```

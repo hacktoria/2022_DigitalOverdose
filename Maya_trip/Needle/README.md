@@ -21,4 +21,4 @@ Korean Train Express
 
 
 
-``` Flag : DOCTF{KTX_520} ``` ????
+``` Flag : DOCTF{KTX_520} ```

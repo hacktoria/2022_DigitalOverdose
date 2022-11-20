@@ -2,4 +2,4 @@
 
 
 
-``` Flag : DOCTF{n_seoul_tower} ``` ????
+``` Flag : DOCTF{n_seoul_tower} ```
