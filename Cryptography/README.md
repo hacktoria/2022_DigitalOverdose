@@ -16,6 +16,8 @@
 
 ![Challenge](images/image_002.png)
 
+Flag - [Lightning Seeds Resolution](Lightning_Seeds/README.md)
+
 ---
 
 ## Numbers Station
@@ -36,7 +38,7 @@ Flag - [Numbers Station Resolution](Numbers_Station/README.md)
 
 ![Challenge](images/image_005.png)
 
-No Flag - [The Rat Resolution](The_Rat/README.md)
+[The Rat Resolution](The_Rat/README.md)
 
 ---
 
