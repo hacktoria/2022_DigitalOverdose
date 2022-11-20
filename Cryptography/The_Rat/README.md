@@ -30,15 +30,9 @@ The result are the following numbers
  - ABC or Multi-tap Code <https://www.dcode.fr/multitap-abc-cipher>
  - T9 Code (Predictive text) <https://www.dcode.fr/t9-cipher>
 
+The area code of the phone number
 
-Tried flags:
-
-- DOCTF{0442896496852}
-- DOCTF{00hatwmgwmtja}
-- DOCTF{+hatwmgwmtja}
-- DOCTF{HATWMGWMTJA}
-
-``` Flag : Not yet ```
+``` Flag : DOCTF{northern_ireland} ```
 
 
 #### Alternatives

@@ -33,13 +33,4 @@ Use the first letter of the piece on that square
 
 Rook, Knight, Bishop, Queen, King
 
-Tried flags:
-
-- DOCTF{f8,h8,d8,b8}
-- DOCTF{BRQK}
-- DOCTF{b,r,q,k}
-- DOCTF{BBKQRKK}
-- DOCTF{bbkqrkk}
-- DOCTF{B,Q,K}
-
-``` Flag : Not yet ```
+``` Flag : DOCTF{BBRKQRKK} ```
