@@ -8,8 +8,9 @@
 
 Seems this version of mysql has a security flaw. - CVE-2012-2122
 
-<https://www.rapid7.com/blog/post/2012/06/11/cve-2012-2122-a-tragically-comedic-security-flaw-in-mysql/>
+- <https://www.rapid7.com/blog/post/2012/06/11/cve-2012-2122-a-tragically-comedic-security-flaw-in-mysql/>
 
+- <https://book.hacktricks.xyz/network-services-pentesting/pentesting-mysql>
 
 - nmap -sV -p 3306 --script mysql-audit,mysql-databases,mysql-dump-hashes,mysql-empty-password,mysql-enum,mysql-info,mysql-query,mysql-users,mysql-variables,mysql-vuln-cve2012-2122 <IP>
 - msf> use auxiliary/scanner/mysql/mysql_version
@@ -23,6 +24,8 @@ Seems this version of mysql has a security flaw. - CVE-2012-2122
 
 ![Alt text](image_003.png)
 
+![Alt text](image_004.png)
 
+![Alt text](image_005.png)
 
 ``` Flag :  ```
